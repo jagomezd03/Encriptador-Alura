@@ -1,7 +1,80 @@
+:root {
+    --dark-blue-100: #609ed4;
+    --dark-blue-200: #356ea9;
+    --dark-blue-300: #0a3871;
+    --dark-blue-400: #072b61;
+    --dark-blue-500: #052051;
+    --white: #fff;
+    --light-blue-100: #F3F5FC;
+    --light-blue-200: #eff1fa;
+    --light-blue-300: #e9ecf8;
+    --light-blue-400: #aab2d5;
+    --light-blue-500: #757fb2;
+    --gray-100: #ced4da;
+    --gray-200: #adb5bd;
+    --gray-300: #868e96;
+    --gray-400: #495057;
+    --gray-500: #343a40;
+}
+
+body {
+    background-color: var(--light-blue-200);
+}
+
+.container {
+    width: 95%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.arearesult {
+    width: 28%;
+    max-width: 80%;
+    position:relative;
+    left: 67%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    background-color: var(--white);
+}
+
+.arearesult .arear{
+    padding-bottom: 15px;
+}
+
+.arearesult .copybutton {
+}
+
+button {
+    background-color: aqua;
+    border: none;
+    width: 125px;
+    height: 25px;
+    border-radius: 30px;
+}
+
+button:hover {
+    color:gray;
+}
+
 textarea {
     resize: none;
     overflow-y: hidden;
     border: none;
     background: none;
     color: black;
+}
+
+/*Tablet*/
+@media screen and (max-width:1440) {
+    
+}
+
+/*Mobile*/
+@media screen and (max-width:768) {
+    
 }
