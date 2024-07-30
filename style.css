@@ -1,0 +1,7 @@
+textarea {
+    resize: none;
+    overflow-y: hidden;
+    border: none;
+    background: none;
+    color: black;
+}

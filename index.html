@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <input type="text" name="Campo 1" id="text">Hola
     <p>Solo letras minisculas y sin acentos</p>
-    <button>Encriptar</button>
-    <button>Desencriptar</button>
-    <p id="res">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quam, non ea natus autem sunt qui magni quo. Vitae ab natus voluptatum, totam debitis eius?</p>
-    <button>Copiar</button>
+    <button id="enc">Encriptar</button>
+    <button id="desenc">Desencriptar</button>
+    <textarea disabled id="res">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quam, non ea natus autem sunt qui magni quo. Vitae ab natus voluptatum, totam debitis eius?</textarea>
+    <button onclick="copy()">Copiar</button>
 
     <script src="app.js"></script>
 </body>
