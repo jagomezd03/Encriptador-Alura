@@ -46,7 +46,10 @@ body {
     padding-bottom: 15px;
 }
 
-.arearesult .copybutton {
+.arearesult .copybutton button {
+    width: 80%;
+    position: relative;
+    left: 10%;
 }
 
 button {
@@ -67,6 +70,7 @@ textarea {
     border: none;
     background: none;
     color: black;
+    width: 100%;
 }
 
 /*Tablet*/
